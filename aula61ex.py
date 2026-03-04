@@ -1,4 +1,4 @@
-'''import re
+import re
 import sys
 
 #cpf_enviado_usuario = "444.99.0108-88".replace('.', '-', ' ')\)
@@ -12,7 +12,7 @@ if entrada_e_sequencial:
     print('CPF Inválido: Sequência de números repetidos')
     sys.exit()
 
-'''
+
 
 import random
 
@@ -22,13 +22,9 @@ for _ in range(10):
     for i in range(9):
         nove_digitos += str(random.randint(0, 9))
 
+
     print(nove_digitos)
-
-    #sys.exit() Para não executar o código abaixo, que é o mesmo da aula62.py
-
-
-
-
+    
     '''Calculo do primeiro dígito do CPF'''
     contador_regressivo_1 = 10
 
@@ -53,6 +49,6 @@ for _ in range(10):
     cpf_gerado_pelo_calculo = f'{nove_digitos}{digito_1}{digito_2}'
 
     print(cpf_gerado_pelo_calculo)
-    '''if cpf_enviado_usuario == cpf_gerado_pelo_calculo:
+    if cpf_enviado_usuario == cpf_gerado_pelo_calculo:
         print(f'CPF é Válido: {cpf_enviado_usuario}')
-    else:    print(f'CPF Inválido: {cpf_enviado_usuario}')'''
+    else:    print(f'CPF Inválido: {cpf_enviado_usuario}')
