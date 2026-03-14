@@ -1,14 +1,14 @@
-# isinstace - para saber se objeto é de determinado tipo
+# isinstace - para saber se objeto é de determinado tipo "é instancia de."
 lista = [
     'a', 1, 1.1, True, [0, 1, 2], (1, 2),
-    {0, 1}, {'nome': 'Luiz'},
+    {0, 1}, {'nome': 'Breno'},
 ]
 
 for item in lista:
-    if isinstance(item, set):
+    if isinstance(item, set): # classe set
         print('SET')
-        item.add(5)
-        print(item, isinstance(item, set))
+        item.add(7)
+        print(item, isinstance(item, set)) 
 
     elif isinstance(item, str):
         print('STR')
