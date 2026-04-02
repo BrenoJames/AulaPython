@@ -16,3 +16,5 @@
 #print(__name__)
 
 import aula99_package
+
+print(aula99_package.soma_do_modulo(1,2))
