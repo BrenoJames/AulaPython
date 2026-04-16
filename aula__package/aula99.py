@@ -12,7 +12,7 @@
 #print(modulo.soma_do_modulo(1,2))
 #print(variavel)
 #print(nova_variavel)
-
+6 
 #print(__name__)
 
 import aula99_package
